@@ -26,7 +26,7 @@ Watch the first few minutes of the Module Project Solution Video to get a demo o
 
 #### Endpoint A: [POST] `http://localhost:3003/api/auth/login`
 
-This endpoint allows to log users in by sending a valid username and password in the request body.
+This endpoint allows users to log in by sending a valid username and password in the request body.
 
 The response includes an authorization token in its body.
 
@@ -66,7 +66,7 @@ Inside [AuthForm.js](./frontend/components/AuthForm.js) lives the one form used 
 5. On login, POST username and password to the proper endpoint:
     - If login succeeds, set the token in browser local storage and navigate to the Stars route
     - If login fails, set the error message in component state
-
+    
 ### 👉 TASK 4 - Fix the Stars Screen
 
 Inside [StarsList.js](./frontend/components/StarsList.js) lives the list of stars obtained from the API
